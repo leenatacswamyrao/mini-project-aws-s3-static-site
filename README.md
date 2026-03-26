@@ -22,3 +22,27 @@ It is part of my multi-cloud learning journey to showcase hands-on skills.
 ---
 
 ## 📂 Repository Structure
+mini-project-aws-s3-static-site/
+│── README.md
+│── index.html
+│── diagrams/architecture_s3.png
+
+
+---
+
+## 📊 Architecture Diagram
+![Architecture Diagram](diagrams/architecture_s3.png)
+
+---
+
+## 🚀 Outcomes
+- Successfully hosted a static website on AWS S3.
+- Learned how to configure bucket policies and enable static hosting.
+- This project demonstrates my ability to deploy simple workloads on AWS.
+
+---
+
+## 🔗 Next Steps
+- Add CSS/JS for styling.
+- Connect to **CloudFront** for CDN distribution.
+- Compare with GCP and Azure static hosting.
