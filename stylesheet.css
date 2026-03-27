@@ -14,9 +14,6 @@ button:hover {
 button:active {
   background-color: #003366;
 }
-.hidden {
-  display: none;
-}
 #modal{
   position: fixed;
   top:0; left:0;
@@ -29,4 +26,7 @@ button:active {
   padding: 20px;
   border-radius: 8px;
   text-align: center;
+}
+#modal.hidden {
+  display: none;
 }
