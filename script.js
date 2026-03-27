@@ -1,4 +1,22 @@
 // Simple interactivity for your static site
-function showMessage() {
-  alert("Hello from your AWS S3 hosted site!");
-}
+document.addEventListener("DOMContentLoaded",function() {
+  //Page 1 logic
+  const goBtn = document.getElementById("goBtn");
+  if (goBtn){
+    goBtn.addEventListener("click",function() {
+      window.location.href="page2.html";
+    });
+  }
+  //Page 2 logic
+  const alertBtn = document.getElementById("alertBtn");
+  const modal = document.getElementById("modal");
+  const closeBtn = document.getElementById("closeBtn");
+  if (alertBtn && modal && closeBtn) {
+    alertBtn.addEventListener("click",function() {
+      modal.classList.remove("hidden");
+    });
+    closeBtn.addEventListener("click",function() {
+      modal.classList.add("hidden");
+    });
+  }
+});
