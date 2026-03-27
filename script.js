@@ -12,11 +12,13 @@ document.addEventListener("DOMContentLoaded",function() {
   const modal = document.getElementById("modal");
   const closeBtn = document.getElementById("closeBtn");
   if (alertBtn && modal && closeBtn) {
-    alertBtn.addEventListener("click",function() {
+    alertBtn.addEventListener("click", function() {
       modal.classList.remove("hidden");
     });
-    closeBtn.addEventListener("click",function() {
+
+    closeBtn.addEventListener("click", function() {
       modal.classList.add("hidden");
+
     });
   }
 });
