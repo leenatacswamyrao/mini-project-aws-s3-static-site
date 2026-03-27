@@ -49,4 +49,4 @@ mini-project-aws-s3-static-site/
 
 ## Live Demo
 My static website is hosted here:  
-[View Website](http://your-bucket-name.s3-website-ap-south-1.amazonaws.com)
+[View Website](http://leenata-static-site.s3-website.ap-south-1.amazonaws.com)
