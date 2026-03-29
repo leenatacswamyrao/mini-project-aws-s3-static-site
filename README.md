@@ -21,15 +21,6 @@ It is part of my multi-cloud learning journey to showcase hands-on skills.
 
 ---
 
-## 📂 Repository Structure
-mini-project-aws-s3-static-site/
-│── README.md
-│── index.html
-│── diagrams/architecture_s3.png
-
-
----
-
 ## 📊 Architecture Diagram
 ![Architecture Diagram](diagrams/architecture_s3.png)
 
@@ -43,7 +34,10 @@ mini-project-aws-s3-static-site/
 ---
 
 ## Screenshots
-
+- S3 --> Properties Tab --> Static Site Hosting enabled ![S3_Properties](diagrams/s3-properties.png)
+- S3 --> Working static site ![S3_Static_Site](diagrams/s3-site.png)
+- CDN --> Distributions enabled ![CDN_Distributions](diagrams/cdn-distributions.png)
+- CDN --> Working site ![CDN_Site](diagrams/cdn-site.png)
 
 ## Live Demo
 My static website is hosted here:  
