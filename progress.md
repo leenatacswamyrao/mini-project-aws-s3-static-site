@@ -26,3 +26,8 @@
 - Enter /* to clear all cached files.
 - Refresh site to see updated content instantly.
 
+Notes:
+AWS S3 (simple service storage) as the name suggests stores data as objects in buckets. These buckets are region specific so that data remain close to access regions unless moved elsewhere. Here I have used it specifically for static webiste hosting.
+CloudFront  is a content delivery network (CDN) for fast and secure ditribution of web content. It uses global network of edge locations/data centers. When user requests content, it delivers from the nearest edge location thereby reducing latency. It stores caches of frequently access files at edge locations. 
+In short, AWS S3 stores website files, CloudFront distributes those files globally caching them at edge locations.
+
