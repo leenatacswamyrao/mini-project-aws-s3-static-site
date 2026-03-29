@@ -42,10 +42,8 @@ mini-project-aws-s3-static-site/
 
 ---
 
-## 🔗 Next Steps
-- Add CSS/JS for styling.
-- Connect to **CloudFront** for CDN distribution.
-- Compare with GCP and Azure static hosting.
+## Screenshots
+
 
 ## Live Demo
 My static website is hosted here:  
