@@ -1,0 +1,10 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Force all text files to use LF (Linux/Mac style)
+*.html text eol=lf
+*.md   text eol=lf
+*.js   text eol=lf
+*.py   text eol=lf
+*.yml  text eol=lf
+*.json text eol=lf
